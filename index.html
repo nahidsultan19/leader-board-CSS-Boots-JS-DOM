@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link disabled">Disabled</a>
+                        <img src="images/icons/profile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="players mt-5 p-3 pb-5 shadow bg-body rounded">
+                <div class="row gy-3">
+                    <h2 id="players" class="ms-2 pb-3">Top Player</h2>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="player d-flex align-items-center">
+                            <img class="img-fluid w-25 " src="images/players/player-1.png" alt="">
+                            <h3 class="ps-3 fs-5">John Smith</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="player d-flex align-items-center">
+                            <img class="img-fluid w-25" src="images/players/player-2.png" alt="">
+                            <h3 class="ps-3 fs-5">Pro Rasel</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="player d-flex align-items-center">
+                            <img class="img-fluid w-25" src="images/players/player-3.png" alt="">
+                            <h3 class="ps-3 fs-5">Abu Sufian</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="player d-flex align-items-center">
+                            <img class="img-fluid w-25" src="images/players/player-4.png" alt="">
+                            <h3 class="ps-3 fs-5">Shajedul Karim</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="player d-flex align-items-center">
+                            <img class="img-fluid w-25" src="images/players/player-5.png" alt="">
+                            <h3 class="ps-3 fs-5">Maruf Ahmed</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="player d-flex align-items-center">
+                            <img class="img-fluid w-25" src="images/players/player-6.png" alt="">
+                            <h3 class="ps-3 fs-5">Mujahid</h3>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-4 border border-1">
+                <!-------------------------Blog section-------------------->
+                <div class="row gy-5">
+                    <h2 id="blogs" class="ms-2 pb-3">Top Blog</h2>
+                    <div class="col-12 col-md-6">
+                        <div class="blog d-flex align-items-center">
+                            <img class="w-50" src="images/blogs/blog-1.png" alt="" srcset="">
+                            <div class="blog-content ms-3">
+                                <h4>13 of My Favorite UI/UX Goodies</h4>
+                                <p class="text-muted">By Danny Sapio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="blog d-flex align-items-center">
+                            <img class="w-50" src="images/blogs/blog-2.png" alt="" srcset="">
+                            <div class="blog-content ms-3">
+                                <h4>13 of My Favorite UI/UX Goodies</h4>
+                                <p class="text-muted">By Danny Sapio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="blog d-flex align-items-center">
+                            <img class="w-50" src="images/blogs/blog-3.png" alt="" srcset="">
+                            <div class="blog-content ms-3">
+                                <h4>13 of My Favorite UI/UX Goodies</h4>
+                                <p class="text-muted">By Danny Sapio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="blog d-flex align-items-center">
+                            <img class="w-50" src="images/blogs/blog-4.png" alt="" srcset="">
+                            <div class="blog-content ms-3">
+                                <h4>13 of My Favorite UI/UX Goodies</h4>
+                                <p class="text-muted">By Danny Sapio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------Courses section---------------------->
+        <section class="container">
+            <div class="courses mt-5 mb-5 p-3 pb-5 shadow bg-body rounded">
+                <h2 id="course" class="ms-2 pb-3">Top Courses</h2>
+                <div class="row row-cols-md-3">
+                    <div class="col">
+                        <div class="card p-2 pb-3 shadow">
+                            <img class="" src="images/courses/course-1.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">React - The Complete Guide 2020</h5>
+                                <p class="text-danger">Reed Krakoff</p>
+
+                            </div>
+                            <div class="d-flex align-items-center ps-3">
+                                <div class="ratting">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="far fa-star text-secondary"></i>
+                                    <span class="ms-3 text-muted">4.5</span>
+                                </div>
+                                <div class="duration ms-3 text-danger">
+                                    <i class="far fa-clock"></i>
+                                    01:30 hr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2 pb-3 shadow">
+                            <img class="" src="images/courses/course-2.png" alt="">
+                            <div class="card-body flex-wrap">
+                                <h5 class="card-title">Powerpoint 2020 Master Powerpoint Course</h5>
+                                <p class="text-danger">Walter Scott</p>
+
+                            </div>
+                            <div class="d-flex align-items-center ps-3">
+                                <div class="ratting">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="far fa-star text-secondary"></i>
+                                    <span class="ms-3 text-muted">4.3</span>
+                                </div>
+                                <div class="duration ms-3 text-danger">
+                                    <i class="far fa-clock"></i>
+                                    01:20 hr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2 pb-3 shadow">
+                            <img class="" src="images/courses/course-3.png" alt="">
+                            <div class="card-body flex-wrap">
+                                <h5 class="card-title">The CompleteJavaScript Course Guide 2020</h5>
+                                <p class="text-danger">Reed Krakoff</p>
+
+                            </div>
+                            <div class="d-flex align-items-center ps-3">
+                                <div class="ratting">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="far fa-star text-secondary"></i>
+                                    <span class="ms-3 text-muted">4.5</span>
+                                </div>
+                                <div class="duration ms-3 text-danger">
+                                    <i class="far fa-clock"></i>
+                                    01:30 hr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- todo section  -->
+        <section class="container">
+            <div class="todo-section bg-body shadow rounded p-5 my-5">
+                <div class="row" id="same">
+                    <div class="col-12 col-md-5">
+                        <div class="programm justify-content-start">
+                            <h5 class="my-4">Select your Favorite <span id="programming">Programming</span> language
+                            </h5>
+                            <ul id="list-ul" class="list-group">
+                                <li class="list-group-item">Python</li>
+                            </ul>
+                            <input id="input" class="form-control border-3 mt-2 rounded" type="text"
+                                placeholder="Enter your choice">
+                            <button id="add-btn" class="btn btn-primary mt-2">Add</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 d-flex text-center justify-content-center align-items-center">
+                        <!-- <h4 class="text-center">Counting</h4> -->
+                        <div class="rating d-flex m-2 ">
+                            <button id="minus" class="btn btn-primary">-</button>
+                            <h1 id="count" class="mx-5">0</h1>
+                            <button id="plus" class="btn btn-primary">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

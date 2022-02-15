@@ -1,0 +1,39 @@
+.logo{
+    width: 40px;
+    height: 51px;
+}
+.duration{
+    background-color: rgba(201, 148, 148, 0.63);
+    padding: 2px 4px;
+    border-radius: 15px;
+}
+h2{
+    color: #562EFF;
+    /* color: rgba(255, 99, 71, 0.884); */
+}
+
+
+
+/* media query  */
+@media only screen and (min-width:768px){
+    .navbar-nav img{
+        display: none;
+    }
+    .player h3{
+        font-size: 1rem !important;
+    }
+    .blog-content h4{
+        font-size: 1rem;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .rating{
+        padding-top: 60px;
+    }
+    .d-flex{
+        font-size: 10px;
+        /* flex-direction: column; */
+    }
+}
+
